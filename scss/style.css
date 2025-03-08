@@ -2,6 +2,12 @@
   font-family: montserrat;
   src: url(../fonts/Montserrat-Medium.ttf);
 }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   font-family: montserrat;
 }
@@ -44,9 +50,49 @@ body {
   width: fit-content;
 }
 
+#hero-section {
+  background: url(../images/hero-bg.png);
+  background-size: auto;
+  background-position: left;
+  background-repeat: no-repeat;
+  padding-bottom: 5px !important;
+}
+#hero-section img {
+  height: 90vh;
+  filter: grayscale(70%);
+}
+#hero-section .hero-content {
+  color: #ffffff;
+  font-family: Montserrat;
+  line-height: 100%;
+  letter-spacing: 1%;
+}
+#hero-section .hero-content h1 {
+  font-size: 5rem;
+}
+
 #counter-numbers-container {
   background: linear-gradient(to bottom, rgba(242, 242, 242, 0.5), rgba(242, 242, 242, 0.5)), url(../images/texture-bg.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+}
+#counter-numbers-container #counter-sub-container {
+  background: rgba(255, 255, 255, 0.6);
+  -webkit-backdrop-filter: blur(4px);
+          backdrop-filter: blur(4px);
+  border-radius: 20px;
+  padding: 2rem;
+}
+#counter-numbers-container #counter-sub-container .counter-text {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  vertical-align: middle;
+}
+#counter-numbers-container #counter-sub-container .counter-number {
+  font-weight: 500;
+  font-size: 18px;
+  margin-bottom: 5px !important;
 }/*# sourceMappingURL=style.css.map */

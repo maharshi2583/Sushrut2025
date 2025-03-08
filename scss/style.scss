@@ -5,6 +5,12 @@
 
 @import 'variable';
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     font-family: montserrat;
 }
@@ -30,9 +36,54 @@ body {
     width: fit-content;
 }
 
+#hero-section {
+    background: url(../images/hero-bg.png);
+    background-size: auto;
+    background-position: left;
+    background-repeat: no-repeat;
+    padding-bottom: 5px !important;
+
+    img {
+        height: 90vh;
+        filter: grayscale(70%);
+    }
+
+    .hero-content {
+        color: $white;
+        font-family: Montserrat;
+        line-height: 100%;
+        letter-spacing: 1%;
+
+        h1 {
+            font-size: 5rem;
+        }
+    }
+}
+
 #counter-numbers-container {
     background: linear-gradient(to bottom, rgba(242, 242, 242, 0.5), rgba(242, 242, 242, 0.5)), url(../images/texture-bg.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+
+    #counter-sub-container {
+        background: #FFFFFF99;
+        backdrop-filter: blur(4px);
+        border-radius: 20px;
+        padding: 2rem;
+
+        .counter-text {
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 100%;
+            letter-spacing: 0%;
+            vertical-align: middle;
+        }
+
+        .counter-number {
+            font-weight: 500;
+            font-size: 18px;
+            margin-bottom: 5px !important;
+        }
+    }
 }

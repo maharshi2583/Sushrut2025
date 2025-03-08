@@ -5,12 +5,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sushrut 2025</title>
+    <!--! css -->
     <?php include 'css.php'; ?>
 </head>
 
 <body>
+    <!--! header -->
     <?php include 'header.php'; ?>
 
+    <!--! Hero Section -->
+    <section class="container-fluid py-0" id="hero-section">
+
+        <div class="row">
+            <div class="col-lg-6 my-auto py-5 py-lg-0">
+                <div class="hero-content ms-5">
+                    <h3 class="fw-bold mb-4">The 54th Annual Conference Of Endocrine Society Of India</h3>
+                    <h1 class="fw-bold mb-0">SUSHRUT</h1>
+                    <h4 class="fw-bold">BE WISE, REVISE & ARIES</h4>
+                </div>
+            </div>
+            <div class="col-lg-6 d-flex justify-content-end px-0">
+                <img src="images/hero-side.png" class="img-fluid" alt="hero-side">
+            </div>
+        </div>
+
+    </section>
     <!--! welcome Message -->
     <section class="container-fluid py-5" id="home-welcome-container">
         <div class="container py-5">
@@ -49,10 +68,31 @@
     <section class="container-fluid py-5" id="counter-numbers-container">
         <div class="container py-5">
             <div class="row">
-                <div class="col-lg-10 mx-auto"></div>
+                <div class="col-lg-10 mx-auto" id="counter-sub-container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-3 col-md-5 mb-5 mb-lg-0">
+                            <p class="counter-number mb-0">1300+</p>
+                            <p class="counter-text mb-0">Delegates</p>
+                        </div>
+                        <div class="col-lg-3 col-md-5 mb-5 mb-lg-0">
+                            <p class="counter-number mb-0">137</p>
+                            <p class="counter-text mb-0">Faculties</p>
+                        </div>
+                        <div class="col-lg-3 col-md-5 mb-5 mb-md-0">
+                            <p class="counter-number mb-0">100+</p>
+                            <p class="counter-text mb-0">Lectures</p>
+                        </div>
+                        <div class="col-lg-3 col-md-5 mb-5 mb-md-0">
+                            <p class="counter-number mb-0">4</p>
+                            <p class="counter-text mb-0">Workshop</p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
+
+    <!-- ! javascript -->
     <?php include 'javascript.php'; ?>
 </body>
 
