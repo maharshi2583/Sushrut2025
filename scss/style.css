@@ -1,0 +1,52 @@
+@font-face {
+  font-family: montserrat;
+  src: url(../fonts/Montserrat-Medium.ttf);
+}
+body {
+  font-family: montserrat;
+}
+
+#navbar-container .nav-item {
+  width: -moz-fit-content;
+  width: fit-content;
+}
+#navbar-container .nav-item .nav-link {
+  color: #000000;
+  font-weight: 500;
+  padding: 5px 10px;
+  margin: 5px 10px;
+}
+#navbar-container .nav-item .nav-link:hover, #navbar-container .nav-item .nav-link:focus {
+  color: #4b38d5;
+}
+#navbar-container .nav-item .nav-link.active {
+  color: #4b38d5;
+  background-color: #eee8e8;
+  border-radius: 35px;
+}
+
+#home-welcome-container {
+  background: linear-gradient(180deg, rgba(7, 102, 226, 0.65) 0%, #FFFFFF 100%);
+}
+#home-welcome-container img {
+  width: 60%;
+  height: auto;
+}
+
+.heading-pill {
+  font-size: 30px;
+  font-weight: 600;
+  color: #4b38d5;
+  background-color: #ffffff;
+  padding: 10px 4rem;
+  border-radius: 50px;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+#counter-numbers-container {
+  background: linear-gradient(to bottom, rgba(242, 242, 242, 0.5), rgba(242, 242, 242, 0.5)), url(../images/texture-bg.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,38 @@
+@font-face {
+    font-family: montserrat;
+    src: url(../fonts/Montserrat-Medium.ttf);
+}
+
+@import 'variable';
+
+body {
+    font-family: montserrat;
+}
+
+@import 'header';
+
+#home-welcome-container {
+    background: linear-gradient(180deg, rgba(7, 102, 226, 0.65) 0%, #FFFFFF 100%);
+
+    img {
+        width: 60%;
+        height: auto;
+    }
+}
+
+.heading-pill {
+    font-size: 30px;
+    font-weight: 600;
+    color: $blue;
+    background-color: $white;
+    padding: 10px 4rem;
+    border-radius: 50px;
+    width: fit-content;
+}
+
+#counter-numbers-container {
+    background: linear-gradient(to bottom, rgba(242, 242, 242, 0.5), rgba(242, 242, 242, 0.5)), url(../images/texture-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
